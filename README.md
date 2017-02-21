@@ -66,3 +66,9 @@ G_                   | 13765/14557          | 94.560000  |
 ## Usage
 You can retrain by youself or use my model.
 
+```shell
+# first you should split images from your film
+ffmpeg -i <film path> -r 1 -q:v 2 -f image2 "<imgpath>/%04d.jpeg"
+# then you can use the classifier like this
+python fakefilm.py -m model/fakefilm <imgpath>/0001.jpeg <imgpath>/0002.jpeg ...
+```
