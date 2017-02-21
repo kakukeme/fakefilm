@@ -88,11 +88,7 @@ def main():
 
     args = parser.parse_args()
 
-    print("if", args.image_files)
-    print("model", args.model)
-
-    gpaths = []
-    images = []
+    gpaths, images = [], []
     for fpath in args.image_files:
         img = cv2.imread(fpath, cv2.IMREAD_GRAYSCALE)
         if img is None: continue
@@ -101,8 +97,7 @@ def main():
         img = img.reshape((76800))
         images.append(img)
         gpaths.append(fpath)
-    if not gpaths:
-        exit()
+    if not gpaths: exit()
 
     images = np.concatenate(images,axis=0)
     images = images.reshape((len(images)//76800, 76800))
