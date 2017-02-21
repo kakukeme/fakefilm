@@ -4,14 +4,14 @@ A neural networks classifier for fake film
 There are many bad film in company's storage. For example:
 
 bad film images
-![1](pic/bad.jpg?raw=true "1")
-![2](pic/bad.jpg?raw=true "2")
-![3](pic/bad.jpg?raw=true "3")
+![1](filmimage/bad.jpg?raw=true "1")
+![2](filmimage/bad.jpg?raw=true "2")
+![3](filmimage/bad.jpg?raw=true "3")
 
 good film images
-![1](pic/good.jpg?raw=true "1")
-![2](pic/good.jpg?raw=true "2")
-![3](pic/good.jpg?raw=true "3")
+![1](filmimage/good.jpg?raw=true "1")
+![2](filmimage/good.jpg?raw=true "2")
+![3](filmimage/good.jpg?raw=true "3")
 
 In order to find them, I made this classifier.
 
