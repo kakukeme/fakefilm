@@ -4,11 +4,13 @@ A neural networks classifier for fake film
 There are many bad film in company's storage. For example:
 
 bad film images
+
 ![1](filmimage/bad/1.jpeg?raw=true "1")
 ![2](filmimage/bad/2.jpeg?raw=true "2")
 ![3](filmimage/bad/3.jpeg?raw=true "3")
 
 good film images
+
 ![1](filmimage/good/1.jpeg?raw=true "1")
 ![2](filmimage/good/2.jpeg?raw=true "2")
 ![3](filmimage/good/3.jpeg?raw=true "3")
@@ -25,7 +27,7 @@ B_XXXXX is name of bad film.
 G_XXXXX is name of good film.
 
 FilmName(incomplete) | Classifications/Total | Accuracy |
---------------------------------------------------------|
+|--------------------|-----------------------|----------|
 All Images           | 152164/158996        | 95.700000  |
 Bad Film Images      | 31041/31822          | 97.550000  |
 Good Film Images     | 121123/127174        | 95.240000  |
